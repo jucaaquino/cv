@@ -1,6 +1,6 @@
 # Curiculum Vitae
 
-My CV, writtern in LaTeX.
+My artist CV.
 
 ## Compiling
 
