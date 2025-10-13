@@ -1,27 +1,23 @@
-\documentclass[12pt]{article}
-
-\usepackage[margin=1in]{geometry}
+\documentclass[12pt,letterpaper]{article}
 \usepackage[NoDate]{currvita}
+\usepackage[margin=1in]{geometry}
 \usepackage{helvet}
+\usepackage{setspace}
 \usepackage{calc}
-\usepackage{titlesec}
 
 \pagenumbering{gobble}
 \renewcommand{\familydefault}{\sfdefault}
+\onehalfspacing
+\AtBeginDocument{\setlength{\cvlabelwidth}{\widthof{0000}}}
 
 \begin{document}
-\setlength{\parskip}{\baselineskip}
-\setlength{\cvlabelwidth}{\widthof{0000}}
+\begin{cv}
 
-\begin{cv}{Juca Aquino}
-\vspace*{-1.25\baselineskip}
-
-\begin{cvlist}{}
+\begin{cvlist}{\Huge Juca Aquino}
 \item[www.jucaaquino.com\quad juca@jucaaquino.com]
 \item[Born in 2004, S\~{a}o Paulo, Brazil]
 \item[Lives and works in Winnipeg, Canada]
 \end{cvlist}
-
 
 \begin{cvlist}{Education}
 \item[2026] Bachelor of Fine Arts, University of Manitoba, Winnipeg, Canada
@@ -52,6 +48,7 @@
 \begin{cvlist}{Related Experience}
 \item[2025] Contractor for {\itshape Betonwaves} by Louise Witth\"{o}ft and Rodney LaTourelle, Plug In ICA, Winnipeg, Canada
 \item       Recipient of Helga Miller Scholarship for Drawing/Watercolour Painting, University of Manitoba, Winnipeg, Canada
+\item       Recipient of Undergraduate Art Project Competition Grant, University of Manitoba, Winnipeg, Canada
 \item[2024] Creative Coding Workshop Instructor, Winnipeg Film Group, Winnipeg, Canada
 \item[2023] Contractor for {\itshape STAGES}, Plug In ICA, Winnipeg, Canada
 \end{cvlist}
